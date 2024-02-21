@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body class="bg-opacity-100 bg-dark text-white">
+<!-- Parche del navbar: overflow-->
+<body class="overflow-x-hidden bg-opacity-100 bg-dark text-white">
     <header>
         <!-- place navbar here -->
-        <!-- HAY QUE ARREGLAR EL NAVBAR-->
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-md-4">
+                <div class="col-md-4 p-3">
                     <h4>Contáctenos <br> 625 566 457</h4>
                 </div>
                 <div class="col-md-4 py-3">
@@ -30,10 +30,10 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row ">
             <div class="col">
-           <!--
-  <nav class="navbar m-0 navbar-expand-sm navbar-dark bg-black">
+
+                <nav class="navbar m-0 navbar-expand-lg navbar-dark bg-black ">
                     <div class="container">
                         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -41,18 +41,18 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="collapsibleNavId">
-                            <ul class="navbar-nav mt-2 mt-lg-0">
+                            <ul class="navbar-nav mt-2 mt-lg-0 mx-auto">
 
-                                <li class="nav-item">
+                                <li class="nav-item px-3">
                                     <a class="nav-link text-white" href="#">INICIO</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item px-3">
                                     <a class="nav-link text-white" href="#">MENÚ</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item px-3">
                                     <a class="nav-link text-white" href="#">CARTA</a>
                                 </li>
-                                <li class="nav-item dropdown">
+                                <li class="nav-item px-3 dropdown">
                                     <a class="nav-link dropdown-toggle text-white " href="#" id="dropdownId"
                                         data-bs-toggle="dropdown" aria-haspopup="true"
                                         aria-expanded="false">ESTABLECIMIENTOS</a>
@@ -61,13 +61,13 @@
                                         <a class="dropdown-item" href="#">Action 2</a>
                                     </div>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item px-3">
                                     <a class="nav-link text-white" href="#">BLOG</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item px-3">
                                     <a class="nav-link text-white" href="#">FRANQUICIA</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item px-3">
                                     <a class="nav-link text-white" href="#">CONTACTA</a>
                                 </li>
                             </ul>
@@ -75,62 +75,8 @@
                         </div>
                     </div>
                 </nav>
-           -->
-              <nav
-                class="navbar navbar-expand-sm navbar-light bg-light"
-              >
-                <div class="container">
-                    <button
-                        class="navbar-toggler d-lg-none"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapsibleNavId"
-                        aria-controls="collapsibleNavId"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavId">
-                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#" aria-current="page"
-                                    >Home
-                                    <span class="visually-hidden">(current)</span></a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a
-                                    class="nav-link dropdown-toggle"
-                                    href="#"
-                                    id="dropdownId"
-                                    data-bs-toggle="dropdown"
-                                    aria-haspopup="true"
-                                    aria-expanded="false"
-                                    >Dropdown</a
-                                >
-                                <div
-                                    class="dropdown-menu"
-                                    aria-labelledby="dropdownId"
-                                >
-                                    <a class="dropdown-item" href="#"
-                                        >Action 1</a
-                                    >
-                                    <a class="dropdown-item" href="#"
-                                        >Action 2</a
-                                    >
-                                </div>
-                            </li>
-                        </ul>
-                    
-                    </div>
-                </div>
-              </nav>
-              
-                
+
+
             </div>
 
 
@@ -143,7 +89,7 @@
                     <div class="col-lg-6">
                         <img src="img/burger.png" alt="" width="100%">
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 px-4">
                         <h3 class="text-warning display-6 fw-semibold">Probablemente la mejor que hayas probado</h3>
                         <h2 class=" display-3">¿Buscas un sabor realmente distinto?</h2>
                         <p class="text-light text-opacity-50 pb-0 mb-0">Nuestas hamburguesas te sorprenderán.</p>
@@ -153,10 +99,10 @@
                 </div>
             </div>
         </section>
-        <!--HAY QUE ARREGLAR LOS BOTONES-->
+     
         <section>
-            <div class="row m-3 text-center">
-                <div class="col-md-6 col-lg-4 ">
+            <div class="row text-center justify-content-center px-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card h-100 pb-5">
                         <div class="card-header display-6 fw-semibold text-warning">Menús</div>
 
@@ -165,11 +111,13 @@
                         <div class="card-footer fw-semibold">
                             <h5> Descubre nuestros menús completos y deliciosos.¡La mejor elección!</h5>
                         </div>
-                        <button class="btn btn-warning fw-semibold position-absolute bottom-0 start-50 translate-middle-x mb-2">Más info</button>
+                        <button
+                            class="btn btn-warning fw-semibold position-absolute bottom-0 start-50 translate-middle-x mb-2">Más
+                            info</button>
                     </div>
                 </div>
-               
-                <div class="col-md-6 col-lg-4">
+
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card h-100 pb-5">
                         <div class="card-header display-6 fw-semibold text-warning">Carta</div>
 
@@ -180,101 +128,72 @@
                                 Nuestras hamburguesas, sabrosas originales y únicas
                             </h5>
                         </div>
-                        <button class="btn btn-warning fw-semibold position-absolute bottom-0 start-50 translate-middle-x mb-2">Más info</button>
+                        <button
+                            class="btn btn-warning fw-semibold position-absolute bottom-0 start-50 translate-middle-x mb-2">Más
+                            info</button>
                     </div>
                 </div>
-               
-                <div class="col-md-6 col-lg-4">
+
+                <div class="col-md-6 col-lg-4 p-3">
                     <div class="card h-100  pb-5">
                         <div class="card-header display-6 fw-semibold text-warning">Franquicia</div>
 
                         <img src="img/establecimientos-home.jpg" alt="">
 
                         <div class="card-footer fw-semibold">
-                            <h5>Si quieres formar parte de nuestra red  yte gusta la hostelería, contáctanos</h5>
+                            <h5>Si quieres formar parte de nuestra red yte gusta la hostelería, contáctanos</h5>
                         </div>
-                        <button class="btn btn-warning fw-semibold position-absolute bottom-0 start-50 translate-middle-x mb-2">Más info</button>
+                        <button
+                            class="btn btn-warning fw-semibold position-absolute bottom-0 start-50 translate-middle-x mb-2">Más
+                            info</button>
                     </div>
                 </div>
-               
             </div>
-
-         
-
-
-
         </section>
 
         <section>
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
                 <ol class="carousel-indicators list-unstyled">
-                    <li
-                        data-bs-target="#carouselId"
-                        data-bs-slide-to="0"
-                        class="active"
-                        aria-current="true"
-                        aria-label="First slide"
-                    ></li>
-                    <li
-                        data-bs-target="#carouselId"
-                        data-bs-slide-to="1"
-                        aria-label="Second slide"
-                    ></li>
-             
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                        aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <img
-                            src="img/carrusel1.jpeg"
-                            class="w-100 d-block"
-                            alt="First slide"
-                        />
+                        <img src="img/carrusel1.jpeg" class="w-100 d-block" alt="First slide" />
                     </div>
                     <div class="carousel-item">
-                        <img
-                            src="img/carrusel2.jpg"
-                            class="w-100 d-block"
-                            alt="Second slide"
-                        />
+                        <img src="img/carrusel2.jpg" class="w-100 d-block" alt="Second slide" />
                     </div>
                 </div>
-                <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselId"
-                    data-bs-slide="prev"
-                >
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselId"
-                    data-bs-slide="next"
-                >
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            
+
         </section>
 
         <section>
             <div class="card bg-dark text-white position-relative">
                 <img class="card-img" src="img/bg.jpg" alt="Title" />
                 <div class="card-img-overlay">
-                    
-                        <div class="position-absolute start-50 translate-middle top-50 ">
-                              <img  src="img/logo-footer.png" alt="Title" />
-                            
-                        </div>
-                 
-                  
-                 
+
+                    <div class="position-absolute start-50 translate-middle top-50 ">
+                        <img src="img/logo-footer.png" alt="Title"  class=" w-100 img-fluid"/>
+
+                    </div>
+
+
+
                 </div>
             </div>
-            
+
         </section>
 
     </main>
@@ -301,14 +220,14 @@
                         E-mail <br> info@25burguer.com
                     </h5>
                 </div>
-                
+
             </div>
         </div>
         <div class="bg-warning">
             <div class="container">
                 <div class="row justify-content-between align-items-center py-3">
                     <div class="col fw-semibold"> &copy; Paco Pulido</div>
-                    <div class="col text-md-end"> 
+                    <div class="col text-end">
                         <i class="fa fa-facebook fa-2x pe-3" aria-hidden="true"></i>
                         <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                     </div>
